@@ -4,6 +4,8 @@ import Foundation
 
 class GlanceController: WKInterfaceController {
 
+    @IBOutlet var commandTable: WKInterfaceTable!
+
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
