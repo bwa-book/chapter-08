@@ -23,7 +23,7 @@
                             <items>
                                 <table alignment="left" id="V9i-Zf-Kgh">
                                     <items>
-                                        <tableRow identifier="GlanceCommandActive" id="LFX-WI-KWl">
+                                        <tableRow identifier="GlanceCommandActive" id="LFX-WI-KWl" customClass="GlanceCommand" customModule="GlanceCommander_WatchKit_Extension">
                                             <group key="rootItem" width="1" height="60" alignment="left" id="dsd-61-glz">
                                                 <items>
                                                     <label width="1" height="1" alignment="left" text="Active" textAlignment="center" id="7cu-66-C0v">
@@ -31,8 +31,12 @@
                                                     </label>
                                                 </items>
                                             </group>
+                                            <connections>
+                                                <outlet property="group" destination="dsd-61-glz" id="lWG-6M-MNC"/>
+                                                <outlet property="label" destination="7cu-66-C0v" id="kjg-8w-bp8"/>
+                                            </connections>
                                         </tableRow>
-                                        <tableRow identifier="GlanceCommandInactive" id="6Oz-LX-3k1">
+                                        <tableRow identifier="GlanceCommandInactive" id="6Oz-LX-3k1" customClass="GlanceCommand" customModule="GlanceCommander_WatchKit_Extension">
                                             <group key="rootItem" width="1" height="40" alignment="left" id="rcO-uP-2Z0">
                                                 <items>
                                                     <label width="1" height="1" alignment="left" text="Inactive" textAlignment="center" id="oC7-El-U9o">
@@ -41,6 +45,10 @@
                                                 </items>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             </group>
+                                            <connections>
+                                                <outlet property="group" destination="rcO-uP-2Z0" id="MFF-Zv-N5o"/>
+                                                <outlet property="label" destination="oC7-El-U9o" id="hf4-cg-DBx"/>
+                                            </connections>
                                         </tableRow>
                                     </items>
                                 </table>
