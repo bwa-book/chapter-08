@@ -19,6 +19,7 @@
 		58457C6F1C012AA000360D4A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58457C6E1C012AA000360D4A /* InterfaceController.swift */; };
 		58457C711C012AA000360D4A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58457C701C012AA000360D4A /* ExtensionDelegate.swift */; };
 		58457C731C012AA000360D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58457C721C012AA000360D4A /* Assets.xcassets */; };
+		58457C851C012C2600360D4A /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58457C841C012C2600360D4A /* GlanceController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		58457C701C012AA000360D4A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		58457C721C012AA000360D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58457C741C012AA000360D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58457C841C012C2600360D4A /* GlanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				58457C701C012AA000360D4A /* ExtensionDelegate.swift */,
 				58457C721C012AA000360D4A /* Assets.xcassets */,
 				58457C741C012AA000360D4A /* Info.plist */,
+				58457C841C012C2600360D4A /* GlanceController.swift */,
 			);
 			path = "GlanceEpidemic WatchKit Extension";
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				58457C711C012AA000360D4A /* ExtensionDelegate.swift in Sources */,
 				58457C6F1C012AA000360D4A /* InterfaceController.swift in Sources */,
+				58457C851C012C2600360D4A /* GlanceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +530,7 @@
 				58457C791C012AA000360D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58457C7B1C012AA000360D4A /* Build configuration list for PBXNativeTarget "GlanceEpidemic WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				58457C7D1C012AA000360D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58457C7F1C012AA000360D4A /* Build configuration list for PBXNativeTarget "GlanceEpidemic" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +548,7 @@
 				58457C811C012AA000360D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
